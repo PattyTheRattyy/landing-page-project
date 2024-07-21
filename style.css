@@ -6,35 +6,50 @@
 
 body {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .top-header {
+    display: flex;
+    justify-content: center;
+
+    
 
 }
 
 .left-header-logo {
+    margin-right: auto;
 
 }
 
-.right-header-links {
+.right-header-links ul {
+    display: flex;
 
 }
 
 .bottom-header {
+    display: flex;
 
 }
 
 .bottom-left-header {
+    display: flex;
 
 }
 
 .bottom-right-header {
+    display: flex;
 
 }
 
@@ -70,6 +85,7 @@ body {
 }
 
 .blue-rectangle {
+    display: flex;
 
 }
 
@@ -78,14 +94,10 @@ body {
 }
 
 .right-button {
-    
+
 }
 
 .footer {
     display: flex;
-
-}
-
-.right-header-links {
 
 }
