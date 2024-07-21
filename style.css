@@ -6,8 +6,7 @@
 
 body {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .header {
@@ -15,9 +14,49 @@ body {
 
 }
 
+.top-header {
+
+}
+
+.left-header-logo {
+
+}
+
+.right-header-links {
+
+}
+
+.bottom-header {
+
+}
+
+.bottom-left-header {
+
+}
+
+.bottom-right-header {
+
+}
+
 .rounded-squares-section {
     display: flex;
 
+}
+
+.rounded-square1 {
+
+}
+
+.rounded-square2 {
+    
+}
+
+.rounded-square3 {
+    
+}
+
+.rounded-square4 {
+    
 }
 
 .quote-section {
@@ -30,7 +69,23 @@ body {
 
 }
 
+.blue-rectangle {
+
+}
+
+.left-text {
+
+}
+
+.right-button {
+    
+}
+
 .footer {
     display: flex;
+
+}
+
+.right-header-links {
 
 }
