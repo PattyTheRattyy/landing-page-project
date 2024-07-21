@@ -5,9 +5,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
-    border: 1px;
+    /* border: 1px;
     border-color: black;
-    border-style:solid;
+    border-style:solid; */
 }
 
 body {
@@ -179,15 +179,15 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
+    background-color: #E5E7EB;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex: 1 1 auto;
-    height: 300px;
-    width: auto;
+    width: fit-content;
+    flex: 0 1 auto;
 }
 
 .quote {
@@ -197,11 +197,14 @@ button {
     font-weight: 100;
     color: #1F2937;
     width: 800px;
+    padding: 5px;
 }
 
 .quote-thor {
-    width: 100px;
-
+    align-self: flex-end;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .cta-section {
