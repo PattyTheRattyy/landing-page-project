@@ -5,25 +5,32 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     
 }
 
 .header {
+    display: flex;
 
 }
 
 .rounded-squares-section {
+    display: flex;
 
 }
 
 .quote-section {
+    display: flex;
 
 }
 
 .cta-section {
+    display: flex;
 
 }
 
 .footer {
+    display: flex;
 
 }
