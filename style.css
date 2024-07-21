@@ -1,11 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 
-    /* border: 1px;
+    border: 1px;
     border-color: black;
-    border-style:solid; */
+    border-style:solid;
 }
 
 body {
@@ -18,20 +20,43 @@ body {
    
 }
 
+/* contains every main section, header, and footer */
 .mega-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-  }
+}
 
+button {
+    background-color: #3882F6;
+}
+
+/* top section */
 .top-section {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     height: 300px;
     flex: 1 1 auto;
     flex-wrap: wrap;
+    background-color: #1F2937;
+    
 }
 
+/* main heading */
+.hero-title {
+    font-size: 48px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+
+/* hero subtext */
+.hero-section {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* header */
 .header {
     display: flex;
     justify-content: flex-end;
@@ -43,66 +68,139 @@ body {
     padding: 20px;
 }
 
+
+/* div containg header logo */
 .left-header-logo {
     margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
 
 }
 
+/* div containing right header links */
 .right-header-links {
     display: flex;
     list-style-type: none; 
     gap: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
+/* div containing everything in top-section but the header */
 .bottom-header {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-grow: 1;
 
 }
 
+/* div containing main heading, subtext, and signup button */
 .bottom-left-header {
     display: flex;
+    flex-direction: column;
+    width: 100px;
+    flex: 1 1 auto;
 
 }
 
+/* div containing hero section image */
 .bottom-right-header {
     display: flex;
+    flex-direction: column;
+    width: 100px;
+    flex: 1 1 auto;
 
 }
 
+/* image in hero section */
+.hero-image {
+    height: 220px;
+    width: auto;
+}
+
+/* sign up button in hero section */
+.hero-button {
+    width: 50px;
+    flex: 1 1 auto;
+}
+
+/* heading in the rounded squares section */
+.rounded-heading {
+    font-size: 36px;
+}
+
+/* section containing the rounded square divs */
 .rounded-squares-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
     flex: 1 1 auto;
+    flex-direction: column;
 
-}
-
-.rounded-square1 {
-
-}
-
-.rounded-square2 {
     
+
 }
 
-.rounded-square3 {
-    
+/* group of rounded square divs */
+.rounded-squares {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+
 }
 
-.rounded-square4 {
-    
+/* the rounded blue square */
+.blue-square {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 15%;
+    margin: 5px;
+}
+
+/* rounded square divs */
+.rounded-square {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    width: 200px;
 }
 
 .quote-section {
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
     flex: 1 1 auto;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    height: 300px;
+    width: auto;
+}
+
+.quote {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote-thor {
+    width: 100px;
 
 }
 
@@ -117,6 +215,9 @@ body {
 
 .blue-rectangle {
     display: flex;
+    background-color: #3882F6;
+    padding: 80px;
+    
 
 }
 
@@ -134,5 +235,7 @@ body {
     align-items: center;
     height: 72px;
     flex: 1 1 auto;
-
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
 }
